@@ -576,5 +576,6 @@
   "stat_shops_label": "Ustaxonalar",
   "stat_repairs_label": "Ta'mirlar",
   "stat_rating_label": "Reyting",
-  "stat_uptime_label": "Ish vaqti"
+  "stat_uptime_label": "Ish vaqti",
+  "choosePlanButton": "Rejani tanlash"
 }

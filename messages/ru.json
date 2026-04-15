@@ -573,5 +573,6 @@
   "stat_shops_label": "Мастерских",
   "stat_repairs_label": "Ремонтов",
   "stat_rating_label": "Рейтинг",
-  "stat_uptime_label": "Аптайм"
+  "stat_uptime_label": "Аптайм",
+  "choosePlanButton": "Выбрать план"
 }

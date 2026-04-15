@@ -576,5 +576,6 @@
   "stat_shops_label": "Repair shops",
   "stat_repairs_label": "Repairs tracked",
   "stat_rating_label": "User rating",
-  "stat_uptime_label": "Uptime"
+  "stat_uptime_label": "Uptime",
+  "choosePlanButton": "Choose Plan"
 }
