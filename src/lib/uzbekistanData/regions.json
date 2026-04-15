@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "soato_id": 1,
+    "name_uz": "Andijon",
+    "name_oz": "Andijon",
+    "name_ru": "Андижан"
+  },
+  {
+    "id": 2,
+    "soato_id": 2,
+    "name_uz": "Buxoro",
+    "name_oz": "Buxoro",
+    "name_ru": "Бухара"
+  },
+  {
+    "id": 3,
+    "soato_id": 3,
+    "name_uz": "Jizzax",
+    "name_oz": "Jizzax",
+    "name_ru": "Джизак"
+  },
+  {
+    "id": 4,
+    "soato_id": 4,
+    "name_uz": "Qashqadaryo",
+    "name_oz": "Qashqadaryo",
+    "name_ru": "Кашкадарья"
+  },
+  {
+    "id": 5,
+    "soato_id": 5,
+    "name_uz": "Navoi",
+    "name_oz": "Navoi",
+    "name_ru": "Наваи"
+  },
+  {
+    "id": 6,
+    "soato_id": 6,
+    "name_uz": "Namangan",
+    "name_oz": "Namangan",
+    "name_ru": "Наманган"
+  },
+  {
+    "id": 7,
+    "soato_id": 7,
+    "name_uz": "Samarqand",
+    "name_oz": "Samarqand",
+    "name_ru": "Самарканд"
+  },
+  {
+    "id": 8,
+    "soato_id": 8,
+    "name_uz": "Sirdaryo",
+    "name_oz": "Sirdaryo",
+    "name_ru": "Сырдарья"
+  },
+  {
+    "id": 9,
+    "soato_id": 9,
+    "name_uz": "Surkhandaryo",
+    "name_oz": "Surkhandaryo",
+    "name_ru": "Сурхандарья"
+  },
+  {
+    "id": 10,
+    "soato_id": 10,
+    "name_uz": "Tashkent",
+    "name_oz": "Tashkent",
+    "name_ru": "Ташкент"
+  },
+  {
+    "id": 11,
+    "soato_id": 11,
+    "name_uz": "Fergona",
+    "name_oz": "Fergona",
+    "name_ru": "Фергона"
+  },
+  {
+    "id": 12,
+    "soato_id": 12,
+    "name_uz": "Khorezm",
+    "name_oz": "Khorezm",
+    "name_ru": "Хорезм"
+  },
+  {
+    "id": 13,
+    "soato_id": 13,
+    "name_uz": "Nukus",
+    "name_oz": "Nukus",
+    "name_ru": "Нукус"
+  }
+]
