@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getLocale } from 'next-intl/server';
 import { Locale, locales, defaultLocale } from '@/i18n/config';
+import { AuthProvider } from '@/lib/auth';
 import '../globals.css';
 
 const inter = Inter({
@@ -49,7 +50,9 @@ export default async function LocaleLayout({
       </head>
       <body className="min-h-full flex flex-col bg-white text-slate-900">
         <NextIntlClientProvider messages={messages} locale={locale}>
-          {children}
+          <AuthProvider>
+            {children}
+          </AuthProvider>
         </NextIntlClientProvider>
       </body>
     </html>

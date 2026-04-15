@@ -1,13 +1,16 @@
 import type { MetadataRoute } from 'next';
 
-const baseUrl = 'https://pmaster.uz';
+const baseUrl = 'https://pmaster-next.netlify.app';
 const locales = ['uz', 'ru', 'en'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
-    '', // landing page
+    '',
     '/blog',
-    '/pricing',
+    '/auth/signin',
+    '/auth/signup',
+    '/privacy',
+    '/terms',
   ];
 
   const entries: MetadataRoute.Sitemap = [];
@@ -19,11 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: route === '' ? 'weekly' : 'monthly',
         priority: route === '' ? 1 : 0.8,
-        alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${baseUrl}/${l}${route}`])
-          ),
-        },
       });
     }
   }
